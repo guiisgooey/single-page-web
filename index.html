@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Identicons </title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/8bit-wonder" type="text/css" />
+	</head>
+
+	<body>
+		<main>
+
+			<nav id="nav">
+				<h1><a href="#">Identicons  <img src="images/lol.png" ></a></h1>
+				<ul>
+					<li><a href="#what-are-identicons">What are Identicons?</a></li>
+					<li><a href="#x5x5">5x5 Identicons</a></li>
+					<li><a href="#Identicon Types">Identicon Types</a></li>
+					<li><a href="#jdenticons">Jdenticons</a></li>
+					<li><a href="#jazzicons">Jazzicons</a></li>
+					<li><a href="#more">More About Identicons</a></li>
+				</ul>
+			</nav>
+
+			<section id="home">
+				<div>
+					<h2>Identicons</h2>
+					<p>
+						Data visualization of the future 
+					</p>
+				</div>
+			</section>
+
+			<br>
+
+			<section id="what-are-identicons">
+				<div>
+					<h2>What are Identicons?</h2>
+					<p>
+						Identicons are visual representations of hash values.
+						These hash values can be used to represent IP adresses, user IDs, and other sets of data.
+						These images allow for visual distinction between multiple units of information.
+					</p>
+				</div>
+				<br>
+				<div>
+					<h2>What is a Hash value?</h2>
+					<p>
+					A hash value is a numeric value of a fixed length that uniquely identifies data. Hash values represent large amounts of
+					data as much smaller numeric values. 
+					Identicon creating programs use these smaller values to determine the value for each section of an identicon
+					</p>
+				</div>
+			</section>
+
+			<br>
+
+			<section id="identicon-types">
+				<h2>Identicon Examples:</h2>
+				<ul>
+					<li class="card">
+						<img src="images/identicon2.png">
+						<h3>5x5 Identicons</h3>
+						<p>
+							Being only 5 pixels wide and tall, 5x5 identicons are the simplest it can get. 
+						</p>
+						<a href="#x5x5" id="reference">
+							<button>Learn more</button>
+						</a>
+					</li>
+					<li class="card">
+						<img src="images/jdenticon.png">
+						<h3>Jdenticons</h3>
+						<p>
+							Jdenticons are open source identicons that utilize JavaScript to create hashes. 
+						</p>
+						<a href="#jdenticons" id="reference">
+							<button>Learn more</button>
+						</a>
+					</li>
+					<li class="card">
+						<img src="images/jazzicon2.png">
+						<h3>Jazzicons</h3>
+						<p>
+							Jazzicons are a type of identicon that aim to replace boring, blocky, and overused identicons.
+						</p>
+						<a href="#jazzicons" id="reference">
+							<button>Learn more</button>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<br>
+
+			<section id="x5x5">
+				<div>
+					<h2>5x5 Identicons</h2>
+					<p>
+					5x5 identicons are about as simple as it gets. 
+					The identicon program creates a hash value for a given string of characters. 
+					Each character in the hash value determines whether the current pixel will be enabled or disabled, being blank if disabled.
+					The color of the identicon is determined through a hash-determined color value using the entire hash code. 
+					</p>
+					<a href="https://learn.co/lessons/js-gravatar-creator" id="reference">
+						<button>Learn more</button>
+					</a>
+				</div>
+			</section>
+
+			<br>
+
+			<section id="jdenticons">
+				<div>
+					<div>
+						<h2>Jdenticons</h2>
+						<p>
+						Jdenticon is an open source identicon creator that creates a hash value for given characters and assigns different shapes depending on each value.
+						Because Jdenticon isn't just enabling and disabling pixels, it allows for a lot more variety among given identicons.
+						</p>
+						<a href="https://jdenticon.com/" id="reference">
+							<button>Learn more</button>
+						</a>
+					</div>
+				</div>
+				<figure>
+					<img>
+				</figure>
+			</section>
+
+			<br>
+
+			<section id="jazzicons">
+				<div>
+					<div>
+						<h2>Jazzicons</h2>
+						<p>
+						Jazzicons are sphere-esque identicons that provide an option other than block based identicons. 
+						The colors and layout of each sphere is determined by a hash value of given characters and then a flattened image of the sphere is saved. 
+						</p>
+						<a href="https://www.npmjs.com/package/@metamask/jazzicon" id="reference">
+							<button>Learn more</button>
+						</a>
+					</div>
+				</div>
+				<figure>
+					<img>
+				</figure>
+			</section>
+
+			<br>
+
+			<section id="more">
+				<h2>More About Identicons</h2>
+				<ul>
+					<li class="card">
+						<img src="images/identicons4.png">
+						<h3>Github Identicons</h3>
+						<p>
+							Github now uses a 5x5 identicon as a base profile picture using a hash of the users ID.
+						</p>
+						<a href="https://github.blog/2013-08-14-identicons/" id="reference">
+							<button>Learn more</button>
+						</a>
+					</li>
+					<li class="card">
+						<img src="images/blockie2.png">
+						<h3>EthAvatar</h3>
+						<p>
+							Using EthAvatar Ethereum users can now create an identicon for their crypto addresses.
+						</p>
+						<a href="https://medium.com/@austin_48503/vanity-blockie-miner-for-ethereum-902fccf0a427" id="reference">
+							<button>Learn more</button>
+						</a>
+					</li>
+					<li class="card">
+						<img src="images/dicebear.png">
+						<h3>DiceBear</h3>
+						<p>
+							Use DiceBear to generate even more identicons including humans, robots, and QR codes!
+						</p>
+						<a href="https://avatars.dicebear.com/" id="reference">
+							<button>Learn more</button>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<br>
+
+			<footer id="contact">
+				<h2>Contact Us</h2>
+				<form>
+					<div>
+						<label>
+							<span>Name</span>
+							<input type="text">
+						</label>
+			
+						<label>
+							<span>Email</span>
+							<input type="email">
+						</label>
+					</div>
+					<div>
+						<label>
+							<span>Message</span>
+							<textarea></textarea>
+						</label>
+						<button type="submit">Send</button>
+					</div>
+				</form>
+			</footer>
+			
+		</main>
+	</body>
+</html>
