@@ -54,7 +54,8 @@ nav ul a:hover {
 	justify-content: center;
 	align-items: center;
 	font-size: 4em;
-    color: #26323f;
+	color: #26323f;
+	padding: 2em;
 	}
 
 #home > div {
@@ -89,7 +90,7 @@ nav ul a:hover {
 .card {
 width: 400px;
 margin: 1em;
-background-color: #f0ead6;
+background-color: #fcdab7;
 box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 }
 
@@ -113,6 +114,7 @@ box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 2em;
 }
 
 #what-are-identicons > div {
@@ -129,7 +131,7 @@ box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 
 #what-are-identicons  h2 {
 	font-size: 4em;
-	margin: 0 0 1rem 0;
+	margin:  0 1rem 0;
 	text-align: center;
 }
 
@@ -141,6 +143,7 @@ box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 1em;
 }
 
 #x5x5 > div {
@@ -152,11 +155,11 @@ box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 }
 
 #x5x5 > div:hover{
+    background-color: #506a86;
     color: #ffff;
-    background-color: #506a86
 }
 
-#x5x5 h2 {
+#x5x5  h2 {
 	font-size: 4em;
 	margin: 0 0 1rem 0;
 	text-align: center;
@@ -170,6 +173,7 @@ box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 1em;
 }
 
 #jdenticons > div {
@@ -198,6 +202,7 @@ box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 1em;
 }
 
 #jazzicons > div {
@@ -274,6 +279,16 @@ textarea {
 button{
   width: 100px; 
   height: 25px;
-  border-radius: 15px 50px;
+  border-radius: 5px;
   border-style: none;
+}
+
+section ~ button{
+  background-color: #ffffff90;
+  color: #00000090;
+}
+
+section > div:hover > button{
+ background-color: #ffff;
+ color: #0000;
 }
